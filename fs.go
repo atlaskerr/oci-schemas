@@ -387,6 +387,1662 @@ Ffk8skFWyaS+QN02QChbIBfAaYIyDpwAQSmLsYsup9pXXSYLLaw3FZpwpt13Qb7kgoK5chpC/XM73JUy
 		local: `.`,
 		isDir: true,
 	},
+
+	"/.git": {
+		name:  ".git",
+		local: `.git`,
+		isDir: true,
+	},
+
+	"/.git/branches": {
+		name:  "branches",
+		local: `.git/branches`,
+		isDir: true,
+	},
+
+	"/.git/hooks": {
+		name:  "hooks",
+		local: `.git/hooks`,
+		isDir: true,
+	},
+
+	"/.git/info": {
+		name:  "info",
+		local: `.git/info`,
+		isDir: true,
+	},
+
+	"/.git/logs": {
+		name:  "logs",
+		local: `.git/logs`,
+		isDir: true,
+	},
+
+	"/.git/logs/refs": {
+		name:  "refs",
+		local: `.git/logs/refs`,
+		isDir: true,
+	},
+
+	"/.git/logs/refs/heads": {
+		name:  "heads",
+		local: `.git/logs/refs/heads`,
+		isDir: true,
+	},
+
+	"/.git/logs/refs/remotes": {
+		name:  "remotes",
+		local: `.git/logs/refs/remotes`,
+		isDir: true,
+	},
+
+	"/.git/logs/refs/remotes/origin": {
+		name:  "origin",
+		local: `.git/logs/refs/remotes/origin`,
+		isDir: true,
+	},
+
+	"/.git/objects": {
+		name:  "objects",
+		local: `.git/objects`,
+		isDir: true,
+	},
+
+	"/.git/objects/00": {
+		name:  "00",
+		local: `.git/objects/00`,
+		isDir: true,
+	},
+
+	"/.git/objects/01": {
+		name:  "01",
+		local: `.git/objects/01`,
+		isDir: true,
+	},
+
+	"/.git/objects/02": {
+		name:  "02",
+		local: `.git/objects/02`,
+		isDir: true,
+	},
+
+	"/.git/objects/03": {
+		name:  "03",
+		local: `.git/objects/03`,
+		isDir: true,
+	},
+
+	"/.git/objects/04": {
+		name:  "04",
+		local: `.git/objects/04`,
+		isDir: true,
+	},
+
+	"/.git/objects/05": {
+		name:  "05",
+		local: `.git/objects/05`,
+		isDir: true,
+	},
+
+	"/.git/objects/06": {
+		name:  "06",
+		local: `.git/objects/06`,
+		isDir: true,
+	},
+
+	"/.git/objects/07": {
+		name:  "07",
+		local: `.git/objects/07`,
+		isDir: true,
+	},
+
+	"/.git/objects/08": {
+		name:  "08",
+		local: `.git/objects/08`,
+		isDir: true,
+	},
+
+	"/.git/objects/09": {
+		name:  "09",
+		local: `.git/objects/09`,
+		isDir: true,
+	},
+
+	"/.git/objects/0a": {
+		name:  "0a",
+		local: `.git/objects/0a`,
+		isDir: true,
+	},
+
+	"/.git/objects/0b": {
+		name:  "0b",
+		local: `.git/objects/0b`,
+		isDir: true,
+	},
+
+	"/.git/objects/0c": {
+		name:  "0c",
+		local: `.git/objects/0c`,
+		isDir: true,
+	},
+
+	"/.git/objects/0d": {
+		name:  "0d",
+		local: `.git/objects/0d`,
+		isDir: true,
+	},
+
+	"/.git/objects/0e": {
+		name:  "0e",
+		local: `.git/objects/0e`,
+		isDir: true,
+	},
+
+	"/.git/objects/0f": {
+		name:  "0f",
+		local: `.git/objects/0f`,
+		isDir: true,
+	},
+
+	"/.git/objects/10": {
+		name:  "10",
+		local: `.git/objects/10`,
+		isDir: true,
+	},
+
+	"/.git/objects/11": {
+		name:  "11",
+		local: `.git/objects/11`,
+		isDir: true,
+	},
+
+	"/.git/objects/12": {
+		name:  "12",
+		local: `.git/objects/12`,
+		isDir: true,
+	},
+
+	"/.git/objects/13": {
+		name:  "13",
+		local: `.git/objects/13`,
+		isDir: true,
+	},
+
+	"/.git/objects/14": {
+		name:  "14",
+		local: `.git/objects/14`,
+		isDir: true,
+	},
+
+	"/.git/objects/15": {
+		name:  "15",
+		local: `.git/objects/15`,
+		isDir: true,
+	},
+
+	"/.git/objects/16": {
+		name:  "16",
+		local: `.git/objects/16`,
+		isDir: true,
+	},
+
+	"/.git/objects/17": {
+		name:  "17",
+		local: `.git/objects/17`,
+		isDir: true,
+	},
+
+	"/.git/objects/18": {
+		name:  "18",
+		local: `.git/objects/18`,
+		isDir: true,
+	},
+
+	"/.git/objects/19": {
+		name:  "19",
+		local: `.git/objects/19`,
+		isDir: true,
+	},
+
+	"/.git/objects/1a": {
+		name:  "1a",
+		local: `.git/objects/1a`,
+		isDir: true,
+	},
+
+	"/.git/objects/1b": {
+		name:  "1b",
+		local: `.git/objects/1b`,
+		isDir: true,
+	},
+
+	"/.git/objects/1c": {
+		name:  "1c",
+		local: `.git/objects/1c`,
+		isDir: true,
+	},
+
+	"/.git/objects/1d": {
+		name:  "1d",
+		local: `.git/objects/1d`,
+		isDir: true,
+	},
+
+	"/.git/objects/1e": {
+		name:  "1e",
+		local: `.git/objects/1e`,
+		isDir: true,
+	},
+
+	"/.git/objects/1f": {
+		name:  "1f",
+		local: `.git/objects/1f`,
+		isDir: true,
+	},
+
+	"/.git/objects/20": {
+		name:  "20",
+		local: `.git/objects/20`,
+		isDir: true,
+	},
+
+	"/.git/objects/21": {
+		name:  "21",
+		local: `.git/objects/21`,
+		isDir: true,
+	},
+
+	"/.git/objects/22": {
+		name:  "22",
+		local: `.git/objects/22`,
+		isDir: true,
+	},
+
+	"/.git/objects/23": {
+		name:  "23",
+		local: `.git/objects/23`,
+		isDir: true,
+	},
+
+	"/.git/objects/24": {
+		name:  "24",
+		local: `.git/objects/24`,
+		isDir: true,
+	},
+
+	"/.git/objects/25": {
+		name:  "25",
+		local: `.git/objects/25`,
+		isDir: true,
+	},
+
+	"/.git/objects/26": {
+		name:  "26",
+		local: `.git/objects/26`,
+		isDir: true,
+	},
+
+	"/.git/objects/27": {
+		name:  "27",
+		local: `.git/objects/27`,
+		isDir: true,
+	},
+
+	"/.git/objects/28": {
+		name:  "28",
+		local: `.git/objects/28`,
+		isDir: true,
+	},
+
+	"/.git/objects/29": {
+		name:  "29",
+		local: `.git/objects/29`,
+		isDir: true,
+	},
+
+	"/.git/objects/2a": {
+		name:  "2a",
+		local: `.git/objects/2a`,
+		isDir: true,
+	},
+
+	"/.git/objects/2b": {
+		name:  "2b",
+		local: `.git/objects/2b`,
+		isDir: true,
+	},
+
+	"/.git/objects/2c": {
+		name:  "2c",
+		local: `.git/objects/2c`,
+		isDir: true,
+	},
+
+	"/.git/objects/2d": {
+		name:  "2d",
+		local: `.git/objects/2d`,
+		isDir: true,
+	},
+
+	"/.git/objects/2e": {
+		name:  "2e",
+		local: `.git/objects/2e`,
+		isDir: true,
+	},
+
+	"/.git/objects/2f": {
+		name:  "2f",
+		local: `.git/objects/2f`,
+		isDir: true,
+	},
+
+	"/.git/objects/30": {
+		name:  "30",
+		local: `.git/objects/30`,
+		isDir: true,
+	},
+
+	"/.git/objects/31": {
+		name:  "31",
+		local: `.git/objects/31`,
+		isDir: true,
+	},
+
+	"/.git/objects/32": {
+		name:  "32",
+		local: `.git/objects/32`,
+		isDir: true,
+	},
+
+	"/.git/objects/33": {
+		name:  "33",
+		local: `.git/objects/33`,
+		isDir: true,
+	},
+
+	"/.git/objects/34": {
+		name:  "34",
+		local: `.git/objects/34`,
+		isDir: true,
+	},
+
+	"/.git/objects/35": {
+		name:  "35",
+		local: `.git/objects/35`,
+		isDir: true,
+	},
+
+	"/.git/objects/36": {
+		name:  "36",
+		local: `.git/objects/36`,
+		isDir: true,
+	},
+
+	"/.git/objects/37": {
+		name:  "37",
+		local: `.git/objects/37`,
+		isDir: true,
+	},
+
+	"/.git/objects/38": {
+		name:  "38",
+		local: `.git/objects/38`,
+		isDir: true,
+	},
+
+	"/.git/objects/39": {
+		name:  "39",
+		local: `.git/objects/39`,
+		isDir: true,
+	},
+
+	"/.git/objects/3a": {
+		name:  "3a",
+		local: `.git/objects/3a`,
+		isDir: true,
+	},
+
+	"/.git/objects/3b": {
+		name:  "3b",
+		local: `.git/objects/3b`,
+		isDir: true,
+	},
+
+	"/.git/objects/3c": {
+		name:  "3c",
+		local: `.git/objects/3c`,
+		isDir: true,
+	},
+
+	"/.git/objects/3d": {
+		name:  "3d",
+		local: `.git/objects/3d`,
+		isDir: true,
+	},
+
+	"/.git/objects/3e": {
+		name:  "3e",
+		local: `.git/objects/3e`,
+		isDir: true,
+	},
+
+	"/.git/objects/3f": {
+		name:  "3f",
+		local: `.git/objects/3f`,
+		isDir: true,
+	},
+
+	"/.git/objects/40": {
+		name:  "40",
+		local: `.git/objects/40`,
+		isDir: true,
+	},
+
+	"/.git/objects/41": {
+		name:  "41",
+		local: `.git/objects/41`,
+		isDir: true,
+	},
+
+	"/.git/objects/42": {
+		name:  "42",
+		local: `.git/objects/42`,
+		isDir: true,
+	},
+
+	"/.git/objects/43": {
+		name:  "43",
+		local: `.git/objects/43`,
+		isDir: true,
+	},
+
+	"/.git/objects/44": {
+		name:  "44",
+		local: `.git/objects/44`,
+		isDir: true,
+	},
+
+	"/.git/objects/45": {
+		name:  "45",
+		local: `.git/objects/45`,
+		isDir: true,
+	},
+
+	"/.git/objects/46": {
+		name:  "46",
+		local: `.git/objects/46`,
+		isDir: true,
+	},
+
+	"/.git/objects/47": {
+		name:  "47",
+		local: `.git/objects/47`,
+		isDir: true,
+	},
+
+	"/.git/objects/48": {
+		name:  "48",
+		local: `.git/objects/48`,
+		isDir: true,
+	},
+
+	"/.git/objects/49": {
+		name:  "49",
+		local: `.git/objects/49`,
+		isDir: true,
+	},
+
+	"/.git/objects/4a": {
+		name:  "4a",
+		local: `.git/objects/4a`,
+		isDir: true,
+	},
+
+	"/.git/objects/4b": {
+		name:  "4b",
+		local: `.git/objects/4b`,
+		isDir: true,
+	},
+
+	"/.git/objects/4c": {
+		name:  "4c",
+		local: `.git/objects/4c`,
+		isDir: true,
+	},
+
+	"/.git/objects/4d": {
+		name:  "4d",
+		local: `.git/objects/4d`,
+		isDir: true,
+	},
+
+	"/.git/objects/4e": {
+		name:  "4e",
+		local: `.git/objects/4e`,
+		isDir: true,
+	},
+
+	"/.git/objects/4f": {
+		name:  "4f",
+		local: `.git/objects/4f`,
+		isDir: true,
+	},
+
+	"/.git/objects/50": {
+		name:  "50",
+		local: `.git/objects/50`,
+		isDir: true,
+	},
+
+	"/.git/objects/51": {
+		name:  "51",
+		local: `.git/objects/51`,
+		isDir: true,
+	},
+
+	"/.git/objects/52": {
+		name:  "52",
+		local: `.git/objects/52`,
+		isDir: true,
+	},
+
+	"/.git/objects/53": {
+		name:  "53",
+		local: `.git/objects/53`,
+		isDir: true,
+	},
+
+	"/.git/objects/54": {
+		name:  "54",
+		local: `.git/objects/54`,
+		isDir: true,
+	},
+
+	"/.git/objects/55": {
+		name:  "55",
+		local: `.git/objects/55`,
+		isDir: true,
+	},
+
+	"/.git/objects/56": {
+		name:  "56",
+		local: `.git/objects/56`,
+		isDir: true,
+	},
+
+	"/.git/objects/57": {
+		name:  "57",
+		local: `.git/objects/57`,
+		isDir: true,
+	},
+
+	"/.git/objects/58": {
+		name:  "58",
+		local: `.git/objects/58`,
+		isDir: true,
+	},
+
+	"/.git/objects/59": {
+		name:  "59",
+		local: `.git/objects/59`,
+		isDir: true,
+	},
+
+	"/.git/objects/5a": {
+		name:  "5a",
+		local: `.git/objects/5a`,
+		isDir: true,
+	},
+
+	"/.git/objects/5b": {
+		name:  "5b",
+		local: `.git/objects/5b`,
+		isDir: true,
+	},
+
+	"/.git/objects/5c": {
+		name:  "5c",
+		local: `.git/objects/5c`,
+		isDir: true,
+	},
+
+	"/.git/objects/5d": {
+		name:  "5d",
+		local: `.git/objects/5d`,
+		isDir: true,
+	},
+
+	"/.git/objects/5e": {
+		name:  "5e",
+		local: `.git/objects/5e`,
+		isDir: true,
+	},
+
+	"/.git/objects/5f": {
+		name:  "5f",
+		local: `.git/objects/5f`,
+		isDir: true,
+	},
+
+	"/.git/objects/60": {
+		name:  "60",
+		local: `.git/objects/60`,
+		isDir: true,
+	},
+
+	"/.git/objects/61": {
+		name:  "61",
+		local: `.git/objects/61`,
+		isDir: true,
+	},
+
+	"/.git/objects/62": {
+		name:  "62",
+		local: `.git/objects/62`,
+		isDir: true,
+	},
+
+	"/.git/objects/63": {
+		name:  "63",
+		local: `.git/objects/63`,
+		isDir: true,
+	},
+
+	"/.git/objects/64": {
+		name:  "64",
+		local: `.git/objects/64`,
+		isDir: true,
+	},
+
+	"/.git/objects/65": {
+		name:  "65",
+		local: `.git/objects/65`,
+		isDir: true,
+	},
+
+	"/.git/objects/66": {
+		name:  "66",
+		local: `.git/objects/66`,
+		isDir: true,
+	},
+
+	"/.git/objects/67": {
+		name:  "67",
+		local: `.git/objects/67`,
+		isDir: true,
+	},
+
+	"/.git/objects/68": {
+		name:  "68",
+		local: `.git/objects/68`,
+		isDir: true,
+	},
+
+	"/.git/objects/69": {
+		name:  "69",
+		local: `.git/objects/69`,
+		isDir: true,
+	},
+
+	"/.git/objects/6a": {
+		name:  "6a",
+		local: `.git/objects/6a`,
+		isDir: true,
+	},
+
+	"/.git/objects/6b": {
+		name:  "6b",
+		local: `.git/objects/6b`,
+		isDir: true,
+	},
+
+	"/.git/objects/6c": {
+		name:  "6c",
+		local: `.git/objects/6c`,
+		isDir: true,
+	},
+
+	"/.git/objects/6d": {
+		name:  "6d",
+		local: `.git/objects/6d`,
+		isDir: true,
+	},
+
+	"/.git/objects/6e": {
+		name:  "6e",
+		local: `.git/objects/6e`,
+		isDir: true,
+	},
+
+	"/.git/objects/6f": {
+		name:  "6f",
+		local: `.git/objects/6f`,
+		isDir: true,
+	},
+
+	"/.git/objects/70": {
+		name:  "70",
+		local: `.git/objects/70`,
+		isDir: true,
+	},
+
+	"/.git/objects/71": {
+		name:  "71",
+		local: `.git/objects/71`,
+		isDir: true,
+	},
+
+	"/.git/objects/72": {
+		name:  "72",
+		local: `.git/objects/72`,
+		isDir: true,
+	},
+
+	"/.git/objects/73": {
+		name:  "73",
+		local: `.git/objects/73`,
+		isDir: true,
+	},
+
+	"/.git/objects/74": {
+		name:  "74",
+		local: `.git/objects/74`,
+		isDir: true,
+	},
+
+	"/.git/objects/75": {
+		name:  "75",
+		local: `.git/objects/75`,
+		isDir: true,
+	},
+
+	"/.git/objects/76": {
+		name:  "76",
+		local: `.git/objects/76`,
+		isDir: true,
+	},
+
+	"/.git/objects/77": {
+		name:  "77",
+		local: `.git/objects/77`,
+		isDir: true,
+	},
+
+	"/.git/objects/78": {
+		name:  "78",
+		local: `.git/objects/78`,
+		isDir: true,
+	},
+
+	"/.git/objects/79": {
+		name:  "79",
+		local: `.git/objects/79`,
+		isDir: true,
+	},
+
+	"/.git/objects/7a": {
+		name:  "7a",
+		local: `.git/objects/7a`,
+		isDir: true,
+	},
+
+	"/.git/objects/7b": {
+		name:  "7b",
+		local: `.git/objects/7b`,
+		isDir: true,
+	},
+
+	"/.git/objects/7c": {
+		name:  "7c",
+		local: `.git/objects/7c`,
+		isDir: true,
+	},
+
+	"/.git/objects/7d": {
+		name:  "7d",
+		local: `.git/objects/7d`,
+		isDir: true,
+	},
+
+	"/.git/objects/7e": {
+		name:  "7e",
+		local: `.git/objects/7e`,
+		isDir: true,
+	},
+
+	"/.git/objects/7f": {
+		name:  "7f",
+		local: `.git/objects/7f`,
+		isDir: true,
+	},
+
+	"/.git/objects/80": {
+		name:  "80",
+		local: `.git/objects/80`,
+		isDir: true,
+	},
+
+	"/.git/objects/81": {
+		name:  "81",
+		local: `.git/objects/81`,
+		isDir: true,
+	},
+
+	"/.git/objects/82": {
+		name:  "82",
+		local: `.git/objects/82`,
+		isDir: true,
+	},
+
+	"/.git/objects/83": {
+		name:  "83",
+		local: `.git/objects/83`,
+		isDir: true,
+	},
+
+	"/.git/objects/84": {
+		name:  "84",
+		local: `.git/objects/84`,
+		isDir: true,
+	},
+
+	"/.git/objects/85": {
+		name:  "85",
+		local: `.git/objects/85`,
+		isDir: true,
+	},
+
+	"/.git/objects/86": {
+		name:  "86",
+		local: `.git/objects/86`,
+		isDir: true,
+	},
+
+	"/.git/objects/87": {
+		name:  "87",
+		local: `.git/objects/87`,
+		isDir: true,
+	},
+
+	"/.git/objects/88": {
+		name:  "88",
+		local: `.git/objects/88`,
+		isDir: true,
+	},
+
+	"/.git/objects/89": {
+		name:  "89",
+		local: `.git/objects/89`,
+		isDir: true,
+	},
+
+	"/.git/objects/8a": {
+		name:  "8a",
+		local: `.git/objects/8a`,
+		isDir: true,
+	},
+
+	"/.git/objects/8b": {
+		name:  "8b",
+		local: `.git/objects/8b`,
+		isDir: true,
+	},
+
+	"/.git/objects/8c": {
+		name:  "8c",
+		local: `.git/objects/8c`,
+		isDir: true,
+	},
+
+	"/.git/objects/8d": {
+		name:  "8d",
+		local: `.git/objects/8d`,
+		isDir: true,
+	},
+
+	"/.git/objects/8e": {
+		name:  "8e",
+		local: `.git/objects/8e`,
+		isDir: true,
+	},
+
+	"/.git/objects/8f": {
+		name:  "8f",
+		local: `.git/objects/8f`,
+		isDir: true,
+	},
+
+	"/.git/objects/90": {
+		name:  "90",
+		local: `.git/objects/90`,
+		isDir: true,
+	},
+
+	"/.git/objects/91": {
+		name:  "91",
+		local: `.git/objects/91`,
+		isDir: true,
+	},
+
+	"/.git/objects/92": {
+		name:  "92",
+		local: `.git/objects/92`,
+		isDir: true,
+	},
+
+	"/.git/objects/93": {
+		name:  "93",
+		local: `.git/objects/93`,
+		isDir: true,
+	},
+
+	"/.git/objects/94": {
+		name:  "94",
+		local: `.git/objects/94`,
+		isDir: true,
+	},
+
+	"/.git/objects/95": {
+		name:  "95",
+		local: `.git/objects/95`,
+		isDir: true,
+	},
+
+	"/.git/objects/96": {
+		name:  "96",
+		local: `.git/objects/96`,
+		isDir: true,
+	},
+
+	"/.git/objects/97": {
+		name:  "97",
+		local: `.git/objects/97`,
+		isDir: true,
+	},
+
+	"/.git/objects/98": {
+		name:  "98",
+		local: `.git/objects/98`,
+		isDir: true,
+	},
+
+	"/.git/objects/99": {
+		name:  "99",
+		local: `.git/objects/99`,
+		isDir: true,
+	},
+
+	"/.git/objects/9a": {
+		name:  "9a",
+		local: `.git/objects/9a`,
+		isDir: true,
+	},
+
+	"/.git/objects/9b": {
+		name:  "9b",
+		local: `.git/objects/9b`,
+		isDir: true,
+	},
+
+	"/.git/objects/9c": {
+		name:  "9c",
+		local: `.git/objects/9c`,
+		isDir: true,
+	},
+
+	"/.git/objects/9d": {
+		name:  "9d",
+		local: `.git/objects/9d`,
+		isDir: true,
+	},
+
+	"/.git/objects/9e": {
+		name:  "9e",
+		local: `.git/objects/9e`,
+		isDir: true,
+	},
+
+	"/.git/objects/9f": {
+		name:  "9f",
+		local: `.git/objects/9f`,
+		isDir: true,
+	},
+
+	"/.git/objects/a0": {
+		name:  "a0",
+		local: `.git/objects/a0`,
+		isDir: true,
+	},
+
+	"/.git/objects/a1": {
+		name:  "a1",
+		local: `.git/objects/a1`,
+		isDir: true,
+	},
+
+	"/.git/objects/a2": {
+		name:  "a2",
+		local: `.git/objects/a2`,
+		isDir: true,
+	},
+
+	"/.git/objects/a3": {
+		name:  "a3",
+		local: `.git/objects/a3`,
+		isDir: true,
+	},
+
+	"/.git/objects/a4": {
+		name:  "a4",
+		local: `.git/objects/a4`,
+		isDir: true,
+	},
+
+	"/.git/objects/a5": {
+		name:  "a5",
+		local: `.git/objects/a5`,
+		isDir: true,
+	},
+
+	"/.git/objects/a6": {
+		name:  "a6",
+		local: `.git/objects/a6`,
+		isDir: true,
+	},
+
+	"/.git/objects/a7": {
+		name:  "a7",
+		local: `.git/objects/a7`,
+		isDir: true,
+	},
+
+	"/.git/objects/a8": {
+		name:  "a8",
+		local: `.git/objects/a8`,
+		isDir: true,
+	},
+
+	"/.git/objects/a9": {
+		name:  "a9",
+		local: `.git/objects/a9`,
+		isDir: true,
+	},
+
+	"/.git/objects/aa": {
+		name:  "aa",
+		local: `.git/objects/aa`,
+		isDir: true,
+	},
+
+	"/.git/objects/ab": {
+		name:  "ab",
+		local: `.git/objects/ab`,
+		isDir: true,
+	},
+
+	"/.git/objects/ac": {
+		name:  "ac",
+		local: `.git/objects/ac`,
+		isDir: true,
+	},
+
+	"/.git/objects/ad": {
+		name:  "ad",
+		local: `.git/objects/ad`,
+		isDir: true,
+	},
+
+	"/.git/objects/ae": {
+		name:  "ae",
+		local: `.git/objects/ae`,
+		isDir: true,
+	},
+
+	"/.git/objects/af": {
+		name:  "af",
+		local: `.git/objects/af`,
+		isDir: true,
+	},
+
+	"/.git/objects/b0": {
+		name:  "b0",
+		local: `.git/objects/b0`,
+		isDir: true,
+	},
+
+	"/.git/objects/b1": {
+		name:  "b1",
+		local: `.git/objects/b1`,
+		isDir: true,
+	},
+
+	"/.git/objects/b2": {
+		name:  "b2",
+		local: `.git/objects/b2`,
+		isDir: true,
+	},
+
+	"/.git/objects/b3": {
+		name:  "b3",
+		local: `.git/objects/b3`,
+		isDir: true,
+	},
+
+	"/.git/objects/b4": {
+		name:  "b4",
+		local: `.git/objects/b4`,
+		isDir: true,
+	},
+
+	"/.git/objects/b5": {
+		name:  "b5",
+		local: `.git/objects/b5`,
+		isDir: true,
+	},
+
+	"/.git/objects/b6": {
+		name:  "b6",
+		local: `.git/objects/b6`,
+		isDir: true,
+	},
+
+	"/.git/objects/b7": {
+		name:  "b7",
+		local: `.git/objects/b7`,
+		isDir: true,
+	},
+
+	"/.git/objects/b8": {
+		name:  "b8",
+		local: `.git/objects/b8`,
+		isDir: true,
+	},
+
+	"/.git/objects/b9": {
+		name:  "b9",
+		local: `.git/objects/b9`,
+		isDir: true,
+	},
+
+	"/.git/objects/ba": {
+		name:  "ba",
+		local: `.git/objects/ba`,
+		isDir: true,
+	},
+
+	"/.git/objects/bb": {
+		name:  "bb",
+		local: `.git/objects/bb`,
+		isDir: true,
+	},
+
+	"/.git/objects/bc": {
+		name:  "bc",
+		local: `.git/objects/bc`,
+		isDir: true,
+	},
+
+	"/.git/objects/bd": {
+		name:  "bd",
+		local: `.git/objects/bd`,
+		isDir: true,
+	},
+
+	"/.git/objects/be": {
+		name:  "be",
+		local: `.git/objects/be`,
+		isDir: true,
+	},
+
+	"/.git/objects/bf": {
+		name:  "bf",
+		local: `.git/objects/bf`,
+		isDir: true,
+	},
+
+	"/.git/objects/c0": {
+		name:  "c0",
+		local: `.git/objects/c0`,
+		isDir: true,
+	},
+
+	"/.git/objects/c1": {
+		name:  "c1",
+		local: `.git/objects/c1`,
+		isDir: true,
+	},
+
+	"/.git/objects/c2": {
+		name:  "c2",
+		local: `.git/objects/c2`,
+		isDir: true,
+	},
+
+	"/.git/objects/c3": {
+		name:  "c3",
+		local: `.git/objects/c3`,
+		isDir: true,
+	},
+
+	"/.git/objects/c4": {
+		name:  "c4",
+		local: `.git/objects/c4`,
+		isDir: true,
+	},
+
+	"/.git/objects/c5": {
+		name:  "c5",
+		local: `.git/objects/c5`,
+		isDir: true,
+	},
+
+	"/.git/objects/c6": {
+		name:  "c6",
+		local: `.git/objects/c6`,
+		isDir: true,
+	},
+
+	"/.git/objects/c7": {
+		name:  "c7",
+		local: `.git/objects/c7`,
+		isDir: true,
+	},
+
+	"/.git/objects/c8": {
+		name:  "c8",
+		local: `.git/objects/c8`,
+		isDir: true,
+	},
+
+	"/.git/objects/c9": {
+		name:  "c9",
+		local: `.git/objects/c9`,
+		isDir: true,
+	},
+
+	"/.git/objects/ca": {
+		name:  "ca",
+		local: `.git/objects/ca`,
+		isDir: true,
+	},
+
+	"/.git/objects/cb": {
+		name:  "cb",
+		local: `.git/objects/cb`,
+		isDir: true,
+	},
+
+	"/.git/objects/cc": {
+		name:  "cc",
+		local: `.git/objects/cc`,
+		isDir: true,
+	},
+
+	"/.git/objects/cd": {
+		name:  "cd",
+		local: `.git/objects/cd`,
+		isDir: true,
+	},
+
+	"/.git/objects/ce": {
+		name:  "ce",
+		local: `.git/objects/ce`,
+		isDir: true,
+	},
+
+	"/.git/objects/cf": {
+		name:  "cf",
+		local: `.git/objects/cf`,
+		isDir: true,
+	},
+
+	"/.git/objects/d0": {
+		name:  "d0",
+		local: `.git/objects/d0`,
+		isDir: true,
+	},
+
+	"/.git/objects/d1": {
+		name:  "d1",
+		local: `.git/objects/d1`,
+		isDir: true,
+	},
+
+	"/.git/objects/d2": {
+		name:  "d2",
+		local: `.git/objects/d2`,
+		isDir: true,
+	},
+
+	"/.git/objects/d3": {
+		name:  "d3",
+		local: `.git/objects/d3`,
+		isDir: true,
+	},
+
+	"/.git/objects/d4": {
+		name:  "d4",
+		local: `.git/objects/d4`,
+		isDir: true,
+	},
+
+	"/.git/objects/d5": {
+		name:  "d5",
+		local: `.git/objects/d5`,
+		isDir: true,
+	},
+
+	"/.git/objects/d6": {
+		name:  "d6",
+		local: `.git/objects/d6`,
+		isDir: true,
+	},
+
+	"/.git/objects/d7": {
+		name:  "d7",
+		local: `.git/objects/d7`,
+		isDir: true,
+	},
+
+	"/.git/objects/d8": {
+		name:  "d8",
+		local: `.git/objects/d8`,
+		isDir: true,
+	},
+
+	"/.git/objects/d9": {
+		name:  "d9",
+		local: `.git/objects/d9`,
+		isDir: true,
+	},
+
+	"/.git/objects/da": {
+		name:  "da",
+		local: `.git/objects/da`,
+		isDir: true,
+	},
+
+	"/.git/objects/db": {
+		name:  "db",
+		local: `.git/objects/db`,
+		isDir: true,
+	},
+
+	"/.git/objects/dc": {
+		name:  "dc",
+		local: `.git/objects/dc`,
+		isDir: true,
+	},
+
+	"/.git/objects/dd": {
+		name:  "dd",
+		local: `.git/objects/dd`,
+		isDir: true,
+	},
+
+	"/.git/objects/de": {
+		name:  "de",
+		local: `.git/objects/de`,
+		isDir: true,
+	},
+
+	"/.git/objects/df": {
+		name:  "df",
+		local: `.git/objects/df`,
+		isDir: true,
+	},
+
+	"/.git/objects/e0": {
+		name:  "e0",
+		local: `.git/objects/e0`,
+		isDir: true,
+	},
+
+	"/.git/objects/e1": {
+		name:  "e1",
+		local: `.git/objects/e1`,
+		isDir: true,
+	},
+
+	"/.git/objects/e2": {
+		name:  "e2",
+		local: `.git/objects/e2`,
+		isDir: true,
+	},
+
+	"/.git/objects/e3": {
+		name:  "e3",
+		local: `.git/objects/e3`,
+		isDir: true,
+	},
+
+	"/.git/objects/e4": {
+		name:  "e4",
+		local: `.git/objects/e4`,
+		isDir: true,
+	},
+
+	"/.git/objects/e5": {
+		name:  "e5",
+		local: `.git/objects/e5`,
+		isDir: true,
+	},
+
+	"/.git/objects/e6": {
+		name:  "e6",
+		local: `.git/objects/e6`,
+		isDir: true,
+	},
+
+	"/.git/objects/e7": {
+		name:  "e7",
+		local: `.git/objects/e7`,
+		isDir: true,
+	},
+
+	"/.git/objects/e8": {
+		name:  "e8",
+		local: `.git/objects/e8`,
+		isDir: true,
+	},
+
+	"/.git/objects/e9": {
+		name:  "e9",
+		local: `.git/objects/e9`,
+		isDir: true,
+	},
+
+	"/.git/objects/ea": {
+		name:  "ea",
+		local: `.git/objects/ea`,
+		isDir: true,
+	},
+
+	"/.git/objects/eb": {
+		name:  "eb",
+		local: `.git/objects/eb`,
+		isDir: true,
+	},
+
+	"/.git/objects/ec": {
+		name:  "ec",
+		local: `.git/objects/ec`,
+		isDir: true,
+	},
+
+	"/.git/objects/ed": {
+		name:  "ed",
+		local: `.git/objects/ed`,
+		isDir: true,
+	},
+
+	"/.git/objects/ee": {
+		name:  "ee",
+		local: `.git/objects/ee`,
+		isDir: true,
+	},
+
+	"/.git/objects/ef": {
+		name:  "ef",
+		local: `.git/objects/ef`,
+		isDir: true,
+	},
+
+	"/.git/objects/f0": {
+		name:  "f0",
+		local: `.git/objects/f0`,
+		isDir: true,
+	},
+
+	"/.git/objects/f1": {
+		name:  "f1",
+		local: `.git/objects/f1`,
+		isDir: true,
+	},
+
+	"/.git/objects/f2": {
+		name:  "f2",
+		local: `.git/objects/f2`,
+		isDir: true,
+	},
+
+	"/.git/objects/f3": {
+		name:  "f3",
+		local: `.git/objects/f3`,
+		isDir: true,
+	},
+
+	"/.git/objects/f4": {
+		name:  "f4",
+		local: `.git/objects/f4`,
+		isDir: true,
+	},
+
+	"/.git/objects/f5": {
+		name:  "f5",
+		local: `.git/objects/f5`,
+		isDir: true,
+	},
+
+	"/.git/objects/f6": {
+		name:  "f6",
+		local: `.git/objects/f6`,
+		isDir: true,
+	},
+
+	"/.git/objects/f7": {
+		name:  "f7",
+		local: `.git/objects/f7`,
+		isDir: true,
+	},
+
+	"/.git/objects/f8": {
+		name:  "f8",
+		local: `.git/objects/f8`,
+		isDir: true,
+	},
+
+	"/.git/objects/f9": {
+		name:  "f9",
+		local: `.git/objects/f9`,
+		isDir: true,
+	},
+
+	"/.git/objects/fa": {
+		name:  "fa",
+		local: `.git/objects/fa`,
+		isDir: true,
+	},
+
+	"/.git/objects/fb": {
+		name:  "fb",
+		local: `.git/objects/fb`,
+		isDir: true,
+	},
+
+	"/.git/objects/fc": {
+		name:  "fc",
+		local: `.git/objects/fc`,
+		isDir: true,
+	},
+
+	"/.git/objects/fd": {
+		name:  "fd",
+		local: `.git/objects/fd`,
+		isDir: true,
+	},
+
+	"/.git/objects/fe": {
+		name:  "fe",
+		local: `.git/objects/fe`,
+		isDir: true,
+	},
+
+	"/.git/objects/ff": {
+		name:  "ff",
+		local: `.git/objects/ff`,
+		isDir: true,
+	},
+
+	"/.git/objects/info": {
+		name:  "info",
+		local: `.git/objects/info`,
+		isDir: true,
+	},
+
+	"/.git/objects/pack": {
+		name:  "pack",
+		local: `.git/objects/pack`,
+		isDir: true,
+	},
+
+	"/.git/refs": {
+		name:  "refs",
+		local: `.git/refs`,
+		isDir: true,
+	},
+
+	"/.git/refs/heads": {
+		name:  "heads",
+		local: `.git/refs/heads`,
+		isDir: true,
+	},
+
+	"/.git/refs/original": {
+		name:  "original",
+		local: `.git/refs/original`,
+		isDir: true,
+	},
+
+	"/.git/refs/original/refs": {
+		name:  "refs",
+		local: `.git/refs/original/refs`,
+		isDir: true,
+	},
+
+	"/.git/refs/original/refs/heads": {
+		name:  "heads",
+		local: `.git/refs/original/refs/heads`,
+		isDir: true,
+	},
+
+	"/.git/refs/remotes": {
+		name:  "remotes",
+		local: `.git/refs/remotes`,
+		isDir: true,
+	},
+
+	"/.git/refs/remotes/origin": {
+		name:  "origin",
+		local: `.git/refs/remotes/origin`,
+		isDir: true,
+	},
+
+	"/.git/refs/tags": {
+		name:  "tags",
+		local: `.git/refs/tags`,
+		isDir: true,
+	},
 }
 
 var _escDirs = map[string][]os.FileInfo{
@@ -400,4 +2056,556 @@ var _escDirs = map[string][]os.FileInfo{
 		_escData["/image-manifest.schema.json"],
 		_escData["/tag-list.schema.json"],
 	},
+
+	".git": {},
+
+	".git/branches": {},
+
+	".git/hooks": {},
+
+	".git/info": {},
+
+	".git/logs": {},
+
+	".git/logs/refs": {},
+
+	".git/logs/refs/heads": {},
+
+	".git/logs/refs/remotes": {},
+
+	".git/logs/refs/remotes/origin": {},
+
+	".git/objects": {},
+
+	".git/objects/00": {},
+
+	".git/objects/01": {},
+
+	".git/objects/02": {},
+
+	".git/objects/03": {},
+
+	".git/objects/04": {},
+
+	".git/objects/05": {},
+
+	".git/objects/06": {},
+
+	".git/objects/07": {},
+
+	".git/objects/08": {},
+
+	".git/objects/09": {},
+
+	".git/objects/0a": {},
+
+	".git/objects/0b": {},
+
+	".git/objects/0c": {},
+
+	".git/objects/0d": {},
+
+	".git/objects/0e": {},
+
+	".git/objects/0f": {},
+
+	".git/objects/10": {},
+
+	".git/objects/11": {},
+
+	".git/objects/12": {},
+
+	".git/objects/13": {},
+
+	".git/objects/14": {},
+
+	".git/objects/15": {},
+
+	".git/objects/16": {},
+
+	".git/objects/17": {},
+
+	".git/objects/18": {},
+
+	".git/objects/19": {},
+
+	".git/objects/1a": {},
+
+	".git/objects/1b": {},
+
+	".git/objects/1c": {},
+
+	".git/objects/1d": {},
+
+	".git/objects/1e": {},
+
+	".git/objects/1f": {},
+
+	".git/objects/20": {},
+
+	".git/objects/21": {},
+
+	".git/objects/22": {},
+
+	".git/objects/23": {},
+
+	".git/objects/24": {},
+
+	".git/objects/25": {},
+
+	".git/objects/26": {},
+
+	".git/objects/27": {},
+
+	".git/objects/28": {},
+
+	".git/objects/29": {},
+
+	".git/objects/2a": {},
+
+	".git/objects/2b": {},
+
+	".git/objects/2c": {},
+
+	".git/objects/2d": {},
+
+	".git/objects/2e": {},
+
+	".git/objects/2f": {},
+
+	".git/objects/30": {},
+
+	".git/objects/31": {},
+
+	".git/objects/32": {},
+
+	".git/objects/33": {},
+
+	".git/objects/34": {},
+
+	".git/objects/35": {},
+
+	".git/objects/36": {},
+
+	".git/objects/37": {},
+
+	".git/objects/38": {},
+
+	".git/objects/39": {},
+
+	".git/objects/3a": {},
+
+	".git/objects/3b": {},
+
+	".git/objects/3c": {},
+
+	".git/objects/3d": {},
+
+	".git/objects/3e": {},
+
+	".git/objects/3f": {},
+
+	".git/objects/40": {},
+
+	".git/objects/41": {},
+
+	".git/objects/42": {},
+
+	".git/objects/43": {},
+
+	".git/objects/44": {},
+
+	".git/objects/45": {},
+
+	".git/objects/46": {},
+
+	".git/objects/47": {},
+
+	".git/objects/48": {},
+
+	".git/objects/49": {},
+
+	".git/objects/4a": {},
+
+	".git/objects/4b": {},
+
+	".git/objects/4c": {},
+
+	".git/objects/4d": {},
+
+	".git/objects/4e": {},
+
+	".git/objects/4f": {},
+
+	".git/objects/50": {},
+
+	".git/objects/51": {},
+
+	".git/objects/52": {},
+
+	".git/objects/53": {},
+
+	".git/objects/54": {},
+
+	".git/objects/55": {},
+
+	".git/objects/56": {},
+
+	".git/objects/57": {},
+
+	".git/objects/58": {},
+
+	".git/objects/59": {},
+
+	".git/objects/5a": {},
+
+	".git/objects/5b": {},
+
+	".git/objects/5c": {},
+
+	".git/objects/5d": {},
+
+	".git/objects/5e": {},
+
+	".git/objects/5f": {},
+
+	".git/objects/60": {},
+
+	".git/objects/61": {},
+
+	".git/objects/62": {},
+
+	".git/objects/63": {},
+
+	".git/objects/64": {},
+
+	".git/objects/65": {},
+
+	".git/objects/66": {},
+
+	".git/objects/67": {},
+
+	".git/objects/68": {},
+
+	".git/objects/69": {},
+
+	".git/objects/6a": {},
+
+	".git/objects/6b": {},
+
+	".git/objects/6c": {},
+
+	".git/objects/6d": {},
+
+	".git/objects/6e": {},
+
+	".git/objects/6f": {},
+
+	".git/objects/70": {},
+
+	".git/objects/71": {},
+
+	".git/objects/72": {},
+
+	".git/objects/73": {},
+
+	".git/objects/74": {},
+
+	".git/objects/75": {},
+
+	".git/objects/76": {},
+
+	".git/objects/77": {},
+
+	".git/objects/78": {},
+
+	".git/objects/79": {},
+
+	".git/objects/7a": {},
+
+	".git/objects/7b": {},
+
+	".git/objects/7c": {},
+
+	".git/objects/7d": {},
+
+	".git/objects/7e": {},
+
+	".git/objects/7f": {},
+
+	".git/objects/80": {},
+
+	".git/objects/81": {},
+
+	".git/objects/82": {},
+
+	".git/objects/83": {},
+
+	".git/objects/84": {},
+
+	".git/objects/85": {},
+
+	".git/objects/86": {},
+
+	".git/objects/87": {},
+
+	".git/objects/88": {},
+
+	".git/objects/89": {},
+
+	".git/objects/8a": {},
+
+	".git/objects/8b": {},
+
+	".git/objects/8c": {},
+
+	".git/objects/8d": {},
+
+	".git/objects/8e": {},
+
+	".git/objects/8f": {},
+
+	".git/objects/90": {},
+
+	".git/objects/91": {},
+
+	".git/objects/92": {},
+
+	".git/objects/93": {},
+
+	".git/objects/94": {},
+
+	".git/objects/95": {},
+
+	".git/objects/96": {},
+
+	".git/objects/97": {},
+
+	".git/objects/98": {},
+
+	".git/objects/99": {},
+
+	".git/objects/9a": {},
+
+	".git/objects/9b": {},
+
+	".git/objects/9c": {},
+
+	".git/objects/9d": {},
+
+	".git/objects/9e": {},
+
+	".git/objects/9f": {},
+
+	".git/objects/a0": {},
+
+	".git/objects/a1": {},
+
+	".git/objects/a2": {},
+
+	".git/objects/a3": {},
+
+	".git/objects/a4": {},
+
+	".git/objects/a5": {},
+
+	".git/objects/a6": {},
+
+	".git/objects/a7": {},
+
+	".git/objects/a8": {},
+
+	".git/objects/a9": {},
+
+	".git/objects/aa": {},
+
+	".git/objects/ab": {},
+
+	".git/objects/ac": {},
+
+	".git/objects/ad": {},
+
+	".git/objects/ae": {},
+
+	".git/objects/af": {},
+
+	".git/objects/b0": {},
+
+	".git/objects/b1": {},
+
+	".git/objects/b2": {},
+
+	".git/objects/b3": {},
+
+	".git/objects/b4": {},
+
+	".git/objects/b5": {},
+
+	".git/objects/b6": {},
+
+	".git/objects/b7": {},
+
+	".git/objects/b8": {},
+
+	".git/objects/b9": {},
+
+	".git/objects/ba": {},
+
+	".git/objects/bb": {},
+
+	".git/objects/bc": {},
+
+	".git/objects/bd": {},
+
+	".git/objects/be": {},
+
+	".git/objects/bf": {},
+
+	".git/objects/c0": {},
+
+	".git/objects/c1": {},
+
+	".git/objects/c2": {},
+
+	".git/objects/c3": {},
+
+	".git/objects/c4": {},
+
+	".git/objects/c5": {},
+
+	".git/objects/c6": {},
+
+	".git/objects/c7": {},
+
+	".git/objects/c8": {},
+
+	".git/objects/c9": {},
+
+	".git/objects/ca": {},
+
+	".git/objects/cb": {},
+
+	".git/objects/cc": {},
+
+	".git/objects/cd": {},
+
+	".git/objects/ce": {},
+
+	".git/objects/cf": {},
+
+	".git/objects/d0": {},
+
+	".git/objects/d1": {},
+
+	".git/objects/d2": {},
+
+	".git/objects/d3": {},
+
+	".git/objects/d4": {},
+
+	".git/objects/d5": {},
+
+	".git/objects/d6": {},
+
+	".git/objects/d7": {},
+
+	".git/objects/d8": {},
+
+	".git/objects/d9": {},
+
+	".git/objects/da": {},
+
+	".git/objects/db": {},
+
+	".git/objects/dc": {},
+
+	".git/objects/dd": {},
+
+	".git/objects/de": {},
+
+	".git/objects/df": {},
+
+	".git/objects/e0": {},
+
+	".git/objects/e1": {},
+
+	".git/objects/e2": {},
+
+	".git/objects/e3": {},
+
+	".git/objects/e4": {},
+
+	".git/objects/e5": {},
+
+	".git/objects/e6": {},
+
+	".git/objects/e7": {},
+
+	".git/objects/e8": {},
+
+	".git/objects/e9": {},
+
+	".git/objects/ea": {},
+
+	".git/objects/eb": {},
+
+	".git/objects/ec": {},
+
+	".git/objects/ed": {},
+
+	".git/objects/ee": {},
+
+	".git/objects/ef": {},
+
+	".git/objects/f0": {},
+
+	".git/objects/f1": {},
+
+	".git/objects/f2": {},
+
+	".git/objects/f3": {},
+
+	".git/objects/f4": {},
+
+	".git/objects/f5": {},
+
+	".git/objects/f6": {},
+
+	".git/objects/f7": {},
+
+	".git/objects/f8": {},
+
+	".git/objects/f9": {},
+
+	".git/objects/fa": {},
+
+	".git/objects/fb": {},
+
+	".git/objects/fc": {},
+
+	".git/objects/fd": {},
+
+	".git/objects/fe": {},
+
+	".git/objects/ff": {},
+
+	".git/objects/info": {},
+
+	".git/objects/pack": {},
+
+	".git/refs": {},
+
+	".git/refs/heads": {},
+
+	".git/refs/original": {},
+
+	".git/refs/original/refs": {},
+
+	".git/refs/original/refs/heads": {},
+
+	".git/refs/remotes": {},
+
+	".git/refs/remotes/origin": {},
+
+	".git/refs/tags": {},
 }
