@@ -101,9 +101,28 @@ local tagsList(output='jsonschemaV7') = {
 };
 
 // Error Schema
-local errors(output='jsonschemaV7') = {
+local errors(output=JSV7) = {
 
-  local code = { type: 'string' },
+  local code = {
+    type: 'string',
+    enum: [
+      'BLOB_UNKNOWN',
+      'BLOB_UPLOAD_INVALID',
+      'BLOB_UPLOAD_UNKNOWN',
+      'DIGEST_INVALID',
+      'MANIFEST_BLOB_UNKNOWN',
+      'MANIFEST_INVALID',
+      'MANIFEST_UNKNOWN',
+      'MANIFEST_UNVERIFED',
+      'NAME_INVALID',
+      'NAME_UNKNOWN',
+      'SIZE_INVALID',
+      'TAG_INVALID',
+      'UNAUTHORIZED',
+      'DENIED',
+      'UNSUPPORTED',
+    ],
+  },
   local message = { type: 'string' },
   local detail = { type: 'string' },
 
