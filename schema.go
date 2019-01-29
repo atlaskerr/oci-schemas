@@ -15,43 +15,44 @@ func loadSchema(file string) *gojsonschema.Schema {
 	return schema
 }
 
-// ImageIndexSchema provides a gojsonschema.Schema that can be used to validate an image
-// index.
-var ImageIndexSchema = func() *gojsonschema.Schema {
+// ImageIndexSchema provides a gojsonschema.Schema that can be used to validate
+// an image index.
+func ImageIndexSchema() *gojsonschema.Schema {
 	return loadSchema("image-index.schema.json")
 }
 
-// ImageManifestSchema provides a gojsonschema.Schema that can be used to validate an
-// image manifest.
-var ImageManifestSchema = func() *gojsonschema.Schema {
+// ImageManifestSchema provides a gojsonschema.Schema that can be used to
+// validate an image manifest.
+func ImageManifestSchema() *gojsonschema.Schema {
 	return loadSchema("image-manifest.schema.json")
 }
 
-// ImageConfigSchema provides a gojsonschema.Schema that can be used to validate an image
-// config.
-var ImageConfigSchema = func() *gojsonschema.Schema {
+// ImageConfigSchema provides a gojsonschema.Schema that can be used to validate
+// an image config.
+func ImageConfigSchema() *gojsonschema.Schema {
 	return loadSchema("image-config.schema.json")
 }
 
-// TagListSchema provides a gojsonschema.Schema that can be used to validate an tag list.
-var TagListSchema = func() *gojsonschema.Schema {
+// TagListSchema provides a gojsonschema.Schema that can be used to validate an
+// tag list.
+func TagListSchema() *gojsonschema.Schema {
 	return loadSchema("tag-list.schema.json")
 }
 
-// CatalogSchema provides a gojsonschema.Schema that can be used to validate a catalog of
-// repositories.
-var CatalogSchema = func() *gojsonschema.Schema {
+// CatalogSchema provides a gojsonschema.Schema that can be used to validate
+// a catalog of repositories.
+func CatalogSchema() *gojsonschema.Schema {
 	return loadSchema("catalog.schema.json")
 }
 
 // ErrorSchema provides a gojsonschema.Schema that can be used to validate an
 // OCI-compliant error response.
-var ErrorSchema = func() *gojsonschema.Schema {
+func ErrorSchema() *gojsonschema.Schema {
 	return loadSchema("errors.schema.json")
 }
 
-// contentDescriptorSchema provides a gojsonschema.Schema that can be used to validate a
-// content descriptor.
-var contentDescriptorSchema = func() *gojsonschema.Schema {
+// contentDescriptorSchema provides a gojsonschema.Schema that can be used to
+// validate a content descriptor.
+func contentDescriptorSchema() *gojsonschema.Schema {
 	return loadSchema("content-descriptor.schema.json")
 }
