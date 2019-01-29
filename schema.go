@@ -6,7 +6,7 @@ import (
 	"github.com/xeipuuv/gojsonschema"
 )
 
-var schemaFS = FS(false)
+var schemaFS = _escFS(false)
 
 func loadSchema(file string) *gojsonschema.Schema {
 	path := fmt.Sprintf("file:///%s", file)
