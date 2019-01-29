@@ -20,7 +20,7 @@ func TestTagListValidation(t *testing.T) {
 		{"golden.json", true},
 	}
 
-	v := TagListLoader
+	schema := TagListSchema()
 	for _, tc := range tt {
 		tf := func(t *testing.T) {
 			path := fmt.Sprintf("./test-fixtures/tag-list/%v", tc.file)
@@ -37,7 +37,7 @@ func TestTagListValidation(t *testing.T) {
 
 			loader := gojsonschema.NewBytesLoader(b)
 
-			res, err := gojsonschema.Validate(v, loader)
+			res, err := schema.Validate(loader)
 			if err != nil {
 				t.Errorf("unable to validate schema: %v", err)
 			}

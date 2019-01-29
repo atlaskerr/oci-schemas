@@ -90,7 +90,7 @@ func TestImageIndexValidation(t *testing.T) {
 	}
 	tt = append(tt, platformComboTestTable...)
 
-	v := ImageIndexLoader
+	schema := ImageIndexSchema()
 	for _, tc := range tt {
 		tf := func(t *testing.T) {
 			path := fmt.Sprintf("./test-fixtures/image-index/%v", tc.file)
@@ -107,7 +107,7 @@ func TestImageIndexValidation(t *testing.T) {
 
 			loader := gojsonschema.NewBytesLoader(b)
 
-			res, err := gojsonschema.Validate(v, loader)
+			res, err := schema.Validate(loader)
 			if err != nil {
 				t.Errorf("unable to validate schema: %v", err)
 			}

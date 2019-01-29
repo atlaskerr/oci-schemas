@@ -15,6 +15,18 @@
          "urls": [
             "http://example.com"
          ]
+      },
+      {
+         "digest": "sha256:caf3af6d893b5cb8eae9a90a3054f370a92130863450e3299d742c7a65329d94",
+         "mediaType": "application/vnd.oci.image.manifest.v1+json",
+         "platform": {
+            "architecture": "amd64",
+            "os": "windows"
+         },
+         "size": 582,
+         "urls": [
+            "http://example.com"
+         ]
       }
    ],
    "mediaType": "application/vnd.oci.image.index.v1+json",

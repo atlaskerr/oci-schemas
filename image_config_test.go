@@ -22,7 +22,7 @@ func TestImageConfigValidation(t *testing.T) {
 		{"config-env-invalid.json", true},
 	}
 
-	v := ImageConfigLoader
+	schema := ImageConfigSchema()
 	for _, tc := range tt {
 		tf := func(t *testing.T) {
 			path := fmt.Sprintf("./test-fixtures/image-config/%v", tc.file)
@@ -39,7 +39,7 @@ func TestImageConfigValidation(t *testing.T) {
 
 			loader := gojsonschema.NewBytesLoader(b)
 
-			res, err := gojsonschema.Validate(v, loader)
+			res, err := schema.Validate(loader)
 			if err != nil {
 				t.Errorf("unable to validate schema: %v", err)
 			}

@@ -1,55 +1,57 @@
 package oci
 
 import (
+	"fmt"
+
 	"github.com/xeipuuv/gojsonschema"
 )
 
 var schemaFS = FS(false)
 
-// ImageIndexLoader provides a JSONLoader that can be used to validate an image
+func loadSchema(file string) *gojsonschema.Schema {
+	path := fmt.Sprintf("file:///%s", file)
+	loader := gojsonschema.NewReferenceLoaderFileSystem(path, schemaFS)
+	schema, _ := gojsonschema.NewSchema(loader)
+	return schema
+}
+
+// ImageIndexSchema provides a JSONLoader that can be used to validate an image
 // index.
-var ImageIndexLoader = func() gojsonschema.JSONLoader {
-	path := "file:///image-index.schema.json"
-	return gojsonschema.NewReferenceLoaderFileSystem(path, schemaFS)
-}()
+var ImageIndexSchema = func() *gojsonschema.Schema {
+	return loadSchema("image-index.schema.json")
+}
 
-// ImageManifestLoader provides a JSONLoader that can be used to validate an
+// ImageManifestSchema provides a JSONLoader that can be used to validate an
 // image manifest.
-var ImageManifestLoader = func() gojsonschema.JSONLoader {
-	path := "file:///image-manifest.schema.json"
-	return gojsonschema.NewReferenceLoaderFileSystem(path, schemaFS)
-}()
+var ImageManifestSchema = func() *gojsonschema.Schema {
+	return loadSchema("image-manifest.schema.json")
+}
 
-// ImageConfigLoader provides a JSONLoader that can be used to validate an image
+// ImageConfigSchema provides a JSONLoader that can be used to validate an image
 // config.
-var ImageConfigLoader = func() gojsonschema.JSONLoader {
-	path := "file:///image-config.schema.json"
-	return gojsonschema.NewReferenceLoaderFileSystem(path, schemaFS)
-}()
+var ImageConfigSchema = func() *gojsonschema.Schema {
+	return loadSchema("image-config.schema.json")
+}
 
-// TagListLoader provides a JSONLoader that can be used to validate an tag list.
-var TagListLoader = func() gojsonschema.JSONLoader {
-	path := "file:///tag-list.schema.json"
-	return gojsonschema.NewReferenceLoaderFileSystem(path, schemaFS)
-}()
+// TagListSchema provides a JSONLoader that can be used to validate an tag list.
+var TagListSchema = func() *gojsonschema.Schema {
+	return loadSchema("tag-list.schema.json")
+}
 
-// CatalogLoader provides a JSONLoader that can be used to validate a catalog of
+// CatalogSchema provides a JSONLoader that can be used to validate a catalog of
 // repositories.
-var CatalogLoader = func() gojsonschema.JSONLoader {
-	path := "file:///catalog.schema.json"
-	return gojsonschema.NewReferenceLoaderFileSystem(path, schemaFS)
-}()
+var CatalogSchema = func() *gojsonschema.Schema {
+	return loadSchema("catalog.schema.json")
+}
 
-// ErrorsLoader provides a JSONLoader that can be used to validate an
+// ErrorSchema provides a JSONLoader that can be used to validate an
 // OCI-compliant error response.
-var ErrorsLoader = func() gojsonschema.JSONLoader {
-	path := "file:///errors.schema.json"
-	return gojsonschema.NewReferenceLoaderFileSystem(path, schemaFS)
-}()
+var ErrorSchema = func() *gojsonschema.Schema {
+	return loadSchema("errors.schema.json")
+}
 
-// contentDescriptorLoader provides a JSONLoader that can be used to validate a
+// contentDescriptorSchema provides a JSONLoader that can be used to validate a
 // content descriptor.
-var contentDescriptorLoader = func() gojsonschema.JSONLoader {
-	path := "file:///content-descriptor.schema.json"
-	return gojsonschema.NewReferenceLoaderFileSystem(path, schemaFS)
-}()
+var contentDescriptorSchema = func() *gojsonschema.Schema {
+	return loadSchema("content-descriptor.schema.json")
+}

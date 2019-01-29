@@ -24,7 +24,7 @@ func TestContentDescriptorValidation(t *testing.T) {
 		{"digest-sha512-invalid.json", false},
 	}
 
-	v := contentDescriptorLoader
+	schema := contentDescriptorSchema()
 	for _, tc := range tt {
 		tf := func(t *testing.T) {
 			path := fmt.Sprintf("./test-fixtures/content-descriptor/%v", tc.file)
@@ -41,7 +41,7 @@ func TestContentDescriptorValidation(t *testing.T) {
 
 			loader := gojsonschema.NewBytesLoader(b)
 
-			res, err := gojsonschema.Validate(v, loader)
+			res, err := schema.Validate(loader)
 			if err != nil {
 				t.Errorf("unable to validate schema: %v", err)
 			}

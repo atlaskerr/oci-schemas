@@ -29,7 +29,7 @@ func TestImageManifestValidation(t *testing.T) {
 		{"layers-empty-array.json", false},
 	}
 
-	v := ImageManifestLoader
+	schema := ImageManifestSchema()
 	for _, tc := range tt {
 		tf := func(t *testing.T) {
 			path := fmt.Sprintf("./test-fixtures/image-manifest/%v", tc.file)
@@ -46,7 +46,7 @@ func TestImageManifestValidation(t *testing.T) {
 
 			loader := gojsonschema.NewBytesLoader(b)
 
-			res, err := gojsonschema.Validate(v, loader)
+			res, err := schema.Validate(loader)
 			if err != nil {
 				t.Errorf("unable to validate schema: %v", err)
 			}

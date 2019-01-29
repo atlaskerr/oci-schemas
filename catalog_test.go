@@ -20,7 +20,7 @@ func TestCatalogValidation(t *testing.T) {
 		{"golden.json", true},
 	}
 
-	v := CatalogLoader
+	schema := CatalogSchema()
 	for _, tc := range tt {
 		tf := func(t *testing.T) {
 			path := fmt.Sprintf("./test-fixtures/catalog/%v", tc.file)
@@ -37,7 +37,7 @@ func TestCatalogValidation(t *testing.T) {
 
 			loader := gojsonschema.NewBytesLoader(b)
 
-			res, err := gojsonschema.Validate(v, loader)
+			res, err := schema.Validate(loader)
 			if err != nil {
 				t.Errorf("unable to validate schema: %v", err)
 			}
